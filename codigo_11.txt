@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+   int numero, quantidade;
+   for(int i =0; i<5; i++){
+       scanf("%d",&numero);
+       if(numero % 2 == 0){
+           quantidade++;
+       }
+   }
+ printf("%d valores pares\n", quantidade);
+    return 0;
+}
